@@ -1,0 +1,15 @@
+<div class="content">
+<h3 class="logmsg">{{message}}</h3>
+    
+        <div class="ldiv"><img class="llogo" src="images/Vector-Smart-Object.png" alt=""></div>
+        <div class="logdiv">
+            <form id="loginform">
+            <label for="username" class="labels">username</label>
+            <input ng-model="login.username" type="username" placeholder="username" name="fusername" class="forminputs cpname">
+            <label for="password" class="labels">password</label>
+            <input ng-model="login.password" type="password" placeholder="password" name="fpassword" class="forminputs">
+            <a class="create-account" href="signup">create an account</a>
+            <input ng-click="loginForm(login)" class="submitbtn" type="submit" value="submit">
+        </form>
+        </div>
+</div>
